@@ -15,7 +15,7 @@ export const puppyBowlApi = createApi({
   endpoints: (builder) => ({
     // Define an endpoint that fetches players
     fetchPlayers: builder.query({
-      query: () => "/api/2109-UNF-HY-WEB-PT/players",
+      query: () => "/api/2402-FTB-ET-WEB-PT/players",
     }),
     //The part of the URL that comes after the baseUrl for this specific endpoint
   }),
